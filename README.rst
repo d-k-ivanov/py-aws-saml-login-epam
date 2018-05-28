@@ -13,13 +13,14 @@ Installation
 ============
 
 .. code-block:: bash
-# Normal install drom PyPI
-sudo pip3 install --upgrade keepbot-asle
-# From GitHub
-sudo pip3 install --upgrade --no-cache git+https://github.com/keepbot/py-aws-saml-login-epam@master
-# Locally
-git clone https://github.com/keepbot/py-aws-saml-login-epam
-sudo pip3 install --upgrade --no-cache .
+
+  # Normal install drom PyPI
+  sudo pip3 install --upgrade keepbot-asle
+  # From GitHub
+  sudo pip3 install --upgrade --no-cache git+https://github.com/keepbot/py-aws-saml-login-epam@master
+  # Locally
+  git clone https://github.com/keepbot/py-aws-saml-login-epam
+  sudo pip3 install --upgrade --no-cache .
 
 
 Usage
@@ -42,27 +43,4 @@ Custom aws cli profile
   asle login <login_name> --awsprofile <profile_name>
 
   aws --profile <profile_name>
-
-
-Help
-====
-
-.. code-block:: bash
-Usage: asle [OPTIONS] COMMAND [ARGS]...
-
-Options:
-  -c, --config-file PATH  Use alternative configuration file
-  -V, --version           Print the current version number and exit.
-  --awsprofile TEXT       Profilename in ~/.aws/credentials  [default:
-                          default]
-  -h, --help              Show this message and exit.
-
-Commands:
-  create       Create a new profile
-  create-all   Create for all roles a new own profile
-  delete       Delete profile
-  list         List profiles
-  login        Login with given profile(s)
-  require      Login if necessary
-  set-default  Set default profile
 

@@ -12,6 +12,7 @@ python setup.py clean
 #python setup.py test
 python setup.py flake8
 
+git add version
 git add asle/__init__.py
 
 git commit -m "Bumped version to $version"
