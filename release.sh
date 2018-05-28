@@ -17,7 +17,7 @@ git add asle/__init__.py
 git commit -m "Bumped version to $version"
 git push
 
-#python setup.py sdist upload
+python setup.py sdist upload
 
 git tag ${version} -f
 git push --tags
