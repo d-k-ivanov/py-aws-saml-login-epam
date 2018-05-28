@@ -79,7 +79,9 @@ def list_profiles(obj, output):
 
 def get_role_label(role):
     """
-    >>> get_role_label(('arn:aws:iam::123:role/<ROLE_NAME>', 'arn:aws:iam::123:saml-provider/SAMLProvider', 'project-code'))
+    >>> get_role_label(('arn:aws:iam::123:role/<ROLE_NAME>',
+                        'arn:aws:iam::123:saml-provider/SAMLProvider',
+                        'project-code'))
     """
     if not role:
         return ''
@@ -311,7 +313,7 @@ def get_last_update(obj):
     try:
         with open(obj['last-update-filename'], 'rb') as fd:
             last_update = yaml.safe_load(fd)
-    except:
+    except OSError:
         last_update = {'timestamp': 0}
     return last_update
 
