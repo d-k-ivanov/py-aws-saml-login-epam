@@ -25,7 +25,7 @@ def read_version(package):
                 return line.split()[-1].strip().strip('\'')
 
 
-NAME = 'asle'
+NAME = 'keepbot-asle'
 MAIN_PACKAGE = 'asle'
 VERSION = read_version(MAIN_PACKAGE)
 DESCRIPTION = 'SAML login for AWS using EPAM IDP'
@@ -215,7 +215,7 @@ def setup_package():
         author=AUTHOR,
         author_email=EMAIL,
         license=LICENSE,
-        keywords='aws saml federated login epam identity provider sts',
+        keywords='aws saml federated login for epam identity provider',
         long_description=read('README.md'),
         classifiers=CLASSIFIERS,
         test_suite='tests',

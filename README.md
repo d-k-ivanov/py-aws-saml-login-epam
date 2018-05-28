@@ -6,11 +6,13 @@
 
 ## Installation
 ```bash
+# Normal install drom PyPI
+sudo pip3 install --upgrade keepbot-asle
 # From GitHub
-sudo pip3 install --upgrade 'git+https://github.com/keepbot/py-aws-saml-login-epam@master'
+sudo pip3 install --upgrade --no-cache git+https://github.com/keepbot/py-aws-saml-login-epam@master
 # Locally
 git clone https://github.com/keepbot/py-aws-saml-login-epam
-sudo pip install --upgrade --no-cache .
+sudo pip3 install --upgrade --no-cache .
 ```
 
 ## Usage
