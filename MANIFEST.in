@@ -1,0 +1,4 @@
+include *.txt
+include *.rst
+recursive-include epam-aws-login *.py
+recursive-include docs *.rst *.py

@@ -28,10 +28,13 @@ $RECYCLE.BIN
 
 # Python
 venv
-test
-secrets.py
-config.py
 __pycache__
+*.egg*
+*.pyc
+
+# Tests
+junit.xml
+coverage.xml
 
 # Vagrant
 .vagrant
@@ -42,4 +45,6 @@ Gemfile.lock
 # Misc
 .ropeproject
 .tmp
-
+build/
+dist/
+*.sw*
