@@ -216,7 +216,7 @@ def setup_package():
         author_email=EMAIL,
         license=LICENSE,
         keywords='aws saml federated login for epam identity provider',
-        long_description=read('README.md'),
+        long_description=read('README.rst'),
         classifiers=CLASSIFIERS,
         test_suite='tests',
         packages=setuptools.find_packages(exclude=['tests', 'tests.*']),

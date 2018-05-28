@@ -1,9 +1,12 @@
-AWS SAML Login
-==============
+====
+asle
+====
 
-> Based on [Mai by Henning Jacobs](https://github.com/hjacobs/mai)<br>
-> This Python package provides some helper functions to allow programmatic retrieval of temporary AWS credentials with EPAM IDP.<br>
-> This package requires __**Python 3+**__
+AWS SAML Login for EPAM
+
+Based on [Mai by Henning Jacobs](https://github.com/hjacobs/mai)
+This Python package provides some helper functions to allow programmatic retrieval of temporary AWS credentials with EPAM IDP.
+This package requires Python 3.4
 
 
 Installation
