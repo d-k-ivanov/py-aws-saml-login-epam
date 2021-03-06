@@ -31,7 +31,7 @@ VERSION = read_version(MAIN_PACKAGE)
 DESCRIPTION = 'SAML login for AWS using EPAM IDP'
 LICENSE = 'Apache License 2.0'
 URL = 'https://github.com/keepbot/py-aws-saml-login-epam'
-AUTHOR = 'Dmitriy Ivanov'
+AUTHOR = 'Dmitry Ivanov'
 EMAIL = 'd.k.ivanov@live.com'
 
 COVERAGE_XML = True
